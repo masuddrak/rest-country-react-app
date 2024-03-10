@@ -3,3 +3,9 @@
     margin: 15px;
     padding: 20px;
 }
+.country_container img{
+    width: 100%;
+}
+.country_container button{
+padding: 5px 10px;
+}
