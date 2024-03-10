@@ -1,14 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './App.css'
+import Countrys from './componnets/countrys/Countrys'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-  <div>
-   <h2> Rest Countrys API</h2>
-  </div>
+    <div>
+      <h2 style={{backgroundColor:"green",padding:"15px"}}> Rest Countrys API</h2>
+      <Countrys></Countrys>
+    </div>
   )
 }
 
